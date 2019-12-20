@@ -27,6 +27,7 @@ original author of this extension is @siegebell.
 - Diff view for proof-view: highlight which terms change between states
 - Smarter editing: does not roll back the state when editing whitespace or comments
 - Works with [prettify-symbols-mode](https://marketplace.visualstudio.com/items?itemName=siegebell.prettify-symbols-mode)
+- Works with [latex-input](https://marketplace.visualstudio.com/items?itemName=yellpika.latex-input)
 - Supports \_CoqProject
 - LtacProf results treeview
 

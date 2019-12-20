@@ -775,6 +775,10 @@
     "type": "git",
     "url": "https://github.com/coq-community/vscoq.git"
   },
+  "extensionDependencies": [
+    "siegebell.prettify-symbols-mode",
+    "yellpika.latex-input"
+  ],
   "devDependencies": {
     "@types/diff": "^4.0.2",
     "@types/glob": "^7.1.1",
