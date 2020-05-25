@@ -303,7 +303,7 @@ export class CoqDocument implements vscode.Disposable {
       } catch {
         if (os.platform() === 'win32') {
           try {
-            stat = fs.statSync(path.join(v, 'coqtop.exe'));
+            stat = fs.statSync(path.join(v, coqtopExe, '.exe'));
           } catch {}
         }
       }
