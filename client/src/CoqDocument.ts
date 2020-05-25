@@ -318,7 +318,8 @@ export class CoqDocument implements vscode.Disposable {
       if(!newPath)
         return false;
       try {
-        return await fs.existsSync(path.join(newPath, coqtopExe)) || await fs.existsSync(path.join(newPath, coqtopExe, '.exe'))
+        return await fs.existsSync(path.join(newPath, coqtopExe)) ||
+          os.platform() === 'win32' && await fs.existsSync(path.join(newPath, coqtopExe, '.exe'))
       } catch(err) {
         return false;
       }
