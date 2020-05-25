@@ -58,7 +58,7 @@
         "coqtop.binPath": {
           "type": "string",
           "default": "",
-          "description": "Path to coqc and coqtop binaries (alternatively, hoqc, hoqtop)."
+          "description": "Path to coqtop and coqidetop binaries (alternatively, hoqtop and hoqidetop)."
         },
         "coqtop.coqtopExe": {
           "type": "string",
